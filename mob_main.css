@@ -27,7 +27,7 @@ html, body
 }
 .start_box
 {
-    
+    margin-top: 26px;
     height: 49px;
     width: 100%;
     display: flex;
