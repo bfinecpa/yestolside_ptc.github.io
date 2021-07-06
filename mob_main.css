@@ -1,4 +1,11 @@
 
+@font-face {
+    font-family: "NanumSquareRound";
+    src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_two@1.0/NanumSquareRound.woff")
+        format("woff");
+    font-weight: normal;
+    font-style: normal;
+    }
 html, body
 {
     margin: 0px 0px 0px 0px;
@@ -35,14 +42,30 @@ html, body
 }
 .coor_btn
 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 168px;
-    
-    
+    height: 49px;
+    background-color: #f28234;
+    border-radius: 50px;
+    font-family: "NanumSquareRound";
+    color: white;
+    cursor: pointer;
 }
 
 .par_btn
 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 168px;
+    height: 49px;
+    background-color: #f28234;
+    border-radius: 50px;
+    font-family: "NanumSquareRound";
+    color: white;
+    cursor: pointer;
     
     
 }
